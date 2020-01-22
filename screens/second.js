@@ -1,6 +1,5 @@
 import React, { Component, useState } from 'react';
 import { View, Text, StyleSheet, SafeAreaView, ListView } from 'react-native';
-import Dash from 'react-native-dash';
 import { TouchableOpacity, TextInput, FlatList } from 'react-native-gesture-handler';
 
 
@@ -80,8 +79,10 @@ const styles = StyleSheet.create({
     // padding: '5%',
     padding: '2%',
     // marginLeft: 'auto',
-    width: '80%',
+    width: '100%',
     // alignSelf: 'center',
+    borderWidth: 0.25,
+    borderColor: 'grey',
     backgroundColor: 'white',
     shadowOpacity: 0.2,
     shadowOffset: { height: 5, width: 0 },

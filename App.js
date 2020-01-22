@@ -16,12 +16,13 @@ const Appl = createAppContainer(
       screen: First,
       route: '/'
     },
-    Destination:{
-      screen: Second,
-      route: '/s'
-    }
+    // Destination:{
+    //   screen: Second,
+    //   route: '/s'
+    // }
   },{
-    initialRouteName: 'Destination'
+    initialRouteName: 'FlightBooking',
+    headerMode: 'none'
   })
 )
 
